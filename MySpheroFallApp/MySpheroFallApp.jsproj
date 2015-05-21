@@ -49,9 +49,8 @@
     <RequiredPlatformVersion>8.1</RequiredPlatformVersion>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    
     <PackageCertificateKeyFile>MySpheroFallApp_TemporaryKey.pfx</PackageCertificateKeyFile>
-    
+    <AppxBundle>Auto</AppxBundle>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -64,12 +63,15 @@
     <Content Include="images\storelogo.scale-100.png" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
-    
     <None Include="MySpheroFallApp_TemporaryKey.pfx" />
-    
   </ItemGroup>
   <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, version=12.0" />
     <SDKReference Include="Microsoft.WinJS.2.0, Version=1.0" />
+    <SDKReference Include="WindowsPreview.Kinect, Version=2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MySpheroFallLibrary\MySpheroFallLibrary.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment

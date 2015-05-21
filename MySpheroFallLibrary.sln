@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySpheroFallLibrary", "MySpheroFallLibrary\MySpheroFallLibrary.csproj", "{41BCD33B-AE16-4D62-9C52-4E98D3843075}"
 EndProject
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "MySpheroFallApp", "MySpheroFallApp\MySpheroFallApp.jsproj", "{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,30 @@ Global
 		{41BCD33B-AE16-4D62-9C52-4E98D3843075}.Release|x64.Build.0 = Release|x64
 		{41BCD33B-AE16-4D62-9C52-4E98D3843075}.Release|x86.ActiveCfg = Release|x86
 		{41BCD33B-AE16-4D62-9C52-4E98D3843075}.Release|x86.Build.0 = Release|x86
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|ARM.Build.0 = Debug|ARM
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|x64.ActiveCfg = Debug|x64
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|x64.Build.0 = Debug|x64
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|x64.Deploy.0 = Debug|x64
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|x86.ActiveCfg = Debug|x86
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|x86.Build.0 = Debug|x86
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Debug|x86.Deploy.0 = Debug|x86
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|ARM.ActiveCfg = Release|ARM
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|ARM.Build.0 = Release|ARM
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|ARM.Deploy.0 = Release|ARM
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|x64.ActiveCfg = Release|x64
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|x64.Build.0 = Release|x64
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|x64.Deploy.0 = Release|x64
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|x86.ActiveCfg = Release|x86
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|x86.Build.0 = Release|x86
+		{CCA4D2C9-C808-4D0C-BB8B-EA71F9714E26}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,6 +10,7 @@
         Sphero sphero;
         int r;
         int g;
+        int b;
         int rotation;
         float backlightBrightness;
 
@@ -90,10 +91,10 @@
             EventHandler<Robot> handler = null;
 
             handler = (s, robot) =>
-                {
-                    provider.ConnectedRobotEvent -= handler;
-                    task.SetResult(new SpheroControl((Sphero)cxnRobot));
-                };
+            {
+              provider.ConnectedRobotEvent -= handler;
+              task.SetResult(new SpheroControl((Sphero)cxnRobot));
+            };
             provider.ConnectedRobotEvent += handler;
             provider.FindRobots();
 
